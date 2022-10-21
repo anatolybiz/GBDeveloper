@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-int num1 = new Random().Next(1, 10); //генерирует случайное число
+﻿int num1 = new Random().Next(1, 10); //генерирует случайное число
 Console.WriteLine(num1);  //показывает какое число загадали
 int num2 = new Random().Next(1, 10);
 Console.WriteLine(num2);
